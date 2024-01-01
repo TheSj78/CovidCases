@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Covid-19 Tracker</string>
+    <string name="title_textview">COVID-19 Tracker</string>
+    <string name="cases_textview">Total Cases</string>
+    <string name="numOfCases_textview">Loading…</string>
+    <string name="active_textview">Active</string>
+    <string name="numOfActive_textView">Loading…</string>
+    <string name="recovered_textview">Recovered</string>
+    <string name="numOfRecovered_textView">Loading…</string>
+    <string name="deaths_textView">Deaths</string>
+    <string name="numOfDeaths_textView">Loading…</string>
+    <string name="lastUpdated_textView"> </string>
+    <string name="viewByCountryButton">VIEW BY COUNTRY</string>
+
+    <!-- Page 2 -->
+
+    <string name="back_button">BACK</string>
+    <string name="selectCountry_button">SELECT COUNTRY</string>
+    <string name="yourCountry_textView">No Country Selected</string>
+    <string name="country">
+        Selected Country:
+        %1$s
+    </string>
+    <string name="next_button">GO</string>
+
+    <!-- Page 3 -->
+
+    <string name="countryName_textView">Country</string>
+    <string name="noCases">Error 404: Data Not Found :(</string>
+    <string name="goBackToCountry">BACK</string>
+</resources>

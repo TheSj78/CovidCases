@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.mukeshsolanki:country-picker-android:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59a0c57f4d125d0b4c3daef221b533d6/jetified-country-picker-android-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59a0c57f4d125d0b4c3daef221b533d6/jetified-country-picker-android-2.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59a0c57f4d125d0b4c3daef221b533d6/jetified-country-picker-android-2.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce76510b8f1015165d4bb449cb956e90/jetified-country-picker-android-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce76510b8f1015165d4bb449cb956e90/jetified-country-picker-android-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce76510b8f1015165d4bb449cb956e90/jetified-country-picker-android-2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.mukeshsolanki/country-picker-android/2.0.0/1326a3ac5f75c26dade0f113b6df5c36c56b408a/country-picker-android-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

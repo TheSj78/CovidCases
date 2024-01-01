@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="343dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/title_textview"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lastUpdatedView"
+        android:layout_width="388dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:hint="@string/lastUpdated_textView"
+        android:textColor="#8A8383"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleView" />
+
+    <TextView
+        android:id="@+id/countryCaseTextView"
+        android:layout_width="242dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:hint="@string/cases_textview"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastUpdatedView" />
+
+    <TextView
+        android:id="@+id/numOfCountryCasesView"
+        android:layout_width="175dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:hint="@string/numOfCases_textview"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryCaseTextView" />
+
+    <TextView
+        android:id="@+id/countryActiveView"
+        android:layout_width="174dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:gravity="center"
+        android:hint="@string/active_textview"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/numOfCountryActiveView"
+        app:layout_constraintEnd_toStartOf="@+id/countryRecoveredView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numOfCountryCasesView" />
+
+    <TextView
+        android:id="@+id/numOfCountryActiveView"
+        android:layout_width="174dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:gravity="center"
+        android:hint="@string/numOfActive_textView"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/numOfCountryRecoveredView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryActiveView" />
+
+    <TextView
+        android:id="@+id/countryRecoveredView"
+        android:layout_width="174dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="@string/recovered_textview"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/numOfCountryRecoveredView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/countryActiveView"
+        app:layout_constraintTop_toBottomOf="@+id/numOfCountryCasesView" />
+
+    <TextView
+        android:id="@+id/numOfCountryRecoveredView"
+        android:layout_width="174dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:hint="@string/numOfRecovered_textView"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/numOfCountryActiveView"
+        app:layout_constraintTop_toBottomOf="@+id/countryRecoveredView" />
+
+    <TextView
+        android:id="@+id/countryDeathsView"
+        android:layout_width="174dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:hint="@string/deaths_textView"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numOfCountryActiveView" />
+
+    <TextView
+        android:id="@+id/numOfCountryDeathsView"
+        android:layout_width="174dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:hint="@string/numOfDeaths_textView"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryDeathsView"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <Button
+        android:id="@+id/viewByCountryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:hint="VIEW BY COUNTRY"
+        android:onClick="changePages"
+        android:text="VIEW BY COUNTRY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/pullToRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="gone">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
