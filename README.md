@@ -11,7 +11,7 @@ Gets data by scraping the website (hopefully not illegal 💀)
 
 ## Notes
 
-Main code is in `app/src/java/`. 
+Main code is in `app/src/main/java/com/example/covidcases`. 
 
 Not on Play Store bc I didn't want to pay or anything, but it's still pretty cool! Now I can also use ReactNative and stuff so I'm more cross-platform.
 
